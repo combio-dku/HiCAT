@@ -20,6 +20,7 @@ summary <- lst_res[[2]]
 
 ### Check result: First 3 columns are major cell type, minor cell type, cell type subset, respectively
 ### Compare them with the pre-annotated cell type
+aucs <- mkrcnt$show_summary(df_pred, summary)
 
 df_pred[,'celltype_major'] <- celltype_major
 df_pred[,'celltype_minor'] <- celltype_minor
