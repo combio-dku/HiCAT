@@ -12,7 +12,7 @@ HiCAT can be installed using pip command. With python3 installed in your system,
 
 `pip install MarkerCount`
 
-Once it is installed using pip, you can import the two functions using the following python command.
+Once it is installed using pip, you can import two functions using the following python command.
 
 `from MarkerCount.hicat import HiCAT, show_summary`
 
@@ -22,15 +22,15 @@ where `show_summary` is used to check the annotation results.
 
 Marker file must be a tap-separated-value file (.tsv) with 5 columns, "cell_type_major", "cell_type_minor", "cell_type_subset", "exp" and "markers".
 - The first thress defines the 3-level taxonomy tree to be used for hierarchical identification.
-- "exp" is type of marker, which can be pos, neg, or sec.
+- "exp" is type of marker, which can be "pos", "neg", or "sec".
 - "markers" is a list of gene symbols separated by comma.
-- The markers in the provided marker file, "cell_markers_rndsystems_rev.tsv", were reproduced from https://www.rndsystems.com/resources/cell-markers
+- The markers in "cell_markers_rndsystems_rev.tsv", were reproduced from https://www.rndsystems.com/resources/cell-markers
 
 ## Example usage in Jupyter notebook
 
-We provide example usage of HiCAT in Jupyter notebook file `HiCAT_example_py_v02.ipynb`, where you can see how to import and how to run HiCAT. For quick overveiw of the usage of HiCAT, simply click `HiCAT_example_py_v02.ipynb` above in the file list.
+`HiCAT_example_py_v02.ipynb` is example code of HiCAT in Jupyter notebook, where you can see how to import and run HiCAT. For quick overveiw of the usage of HiCAT, simply click `HiCAT_example_py_v02.ipynb` above in the file list.
 
-To run the example, please download the Jupyter notebook file, maker DB in `.tsv` file and a sample single-cell RNA-Seq data with `.h5ad` file extension (It is one of the data we used in our paper mentioned above) and follow the instruction below.
+To run the example, download the Jupyter notebook file, maker DB in `.tsv` file and a sample single-cell RNA-Seq data with `.h5ad` file extension (It is one of the data we used in our paper mentioned above) and follow the instruction below.
 
 1. Download all the files in ZIP format.
 2. Decompress the files into a desired folder.
@@ -38,7 +38,7 @@ To run the example, please download the Jupyter notebook file, maker DB in `.tsv
 4. Run jupyter notebook and open the jupyter notebook file `HiCAT_example_py_v02.ipynb`
 5. You can run the codes step-by-step and can see the intermediate and final results.
 
-To run HiCAT, you need the python packages `Numpy`, `Pandas`, `sklearn`, `scipy`, and `sknetwork`.
+To run HiCAT, you need the pre-installed python packages `Numpy`, `Pandas`, `sklearn`, `scipy`, and `sknetwork`.
 `seaborn` and `matplotlib` are required only to show the results, not for the HiCAT itself.
 All of them can be installed simply using `pip` command.
 
