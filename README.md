@@ -45,7 +45,7 @@ To run the example, please download the script, Jupyter notebook file, maker DB 
 3. Run jupyter notebook and open the jupyter notebook file `HiCAT_example_py_v02.ipynb`
 4. You can run the codes step-by-step and can see the intermediate and final results.
 
-To run HiCAT, you need the python packages `Numpy`, `Pandas`, `sklearn`, `scipy`, and sknetwork.
+To run HiCAT, you need the python packages `Numpy`, `Pandas`, `sklearn`, `scipy`, and `sknetwork`.
 `seaborn` and `matplotlib` are required only to show the results, not for the MarkerCount itself.
 All of them can be installed simply using `pip` command.
 
