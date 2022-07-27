@@ -6,7 +6,7 @@ High precision, marker-based, Hierarchical Cell-type Annotation Tool for single-
 - It was developed using python3, but also run in R as well.
 - HiCAT works in marker-based mode utilizing only the existing lists of markers.
 
-## Installation using pip, importing MarkerCount in Python
+## Installation using pip, importing HiCAT in Python
 
 HiCAT can be installed using pip command. With python3 installed in your system, simply use the follwing command in a terminal.
 
@@ -33,15 +33,15 @@ To run HiCAT, you need the python packages `Numpy`, `Pandas`, `sklearn`, `scipy`
 `seaborn` and `matplotlib` are required only to show the results, not for the HiCAT itself.
 All of them can be installed simply using `pip` command.
 
-## Using MarkerCount in R
+## Using HiCAT in R
 
-(Installed using pip) You also can import and use MarkerCount in R, for which you need the R package `reticulate`.
-First, import MarkerCount using the following command
+(Installed using pip) You also can import and use HiCAT in R, for which you need the R package `reticulate`.
+First, import HiCAT using the following command
 
 `library(reticulate)`  
 `mkrcnt <- import("MarkerCount.hicat")`
 
-Then, you can call the MarkerCount functions as follows.
+Then, you can call the HiCAT functions as follows.
 
 `df_res <- mkrcnt$HiCAT( .. arguments .. )` 
 
