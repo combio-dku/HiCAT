@@ -18,7 +18,7 @@ Once it is installed using pip, you can import two functions using the following
 
 where `show_summary` is used to check the annotation results.
 
-## Example usage in Jupyter notebook
+## Marker file format
 
 Marker file must be a tap-separated-value file (.tsv) with 5 columns, "cell_type_major", "cell_type_minor", "cell_type_subset", "exp" and "markers".
 - The first thress defines the 3-level taxonomy tree to be used for hierarchical identification.
