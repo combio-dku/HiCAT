@@ -26,8 +26,9 @@ To run the example, please download the Jupyter notebook file, maker DB in `.tsv
 
 1. Download all the files in ZIP format.
 2. Decompress the files into a desired folder.
-3. Run jupyter notebook and open the jupyter notebook file `HiCAT_example_py_v02.ipynb`
-4. You can run the codes step-by-step and can see the intermediate and final results.
+3. Decompress 'Melanoma_5K_rev_rev.h5ad.zip'
+4. Run jupyter notebook and open the jupyter notebook file `HiCAT_example_py_v02.ipynb`
+5. You can run the codes step-by-step and can see the intermediate and final results.
 
 To run HiCAT, you need the python packages `Numpy`, `Pandas`, `sklearn`, `scipy`, and `sknetwork`.
 `seaborn` and `matplotlib` are required only to show the results, not for the HiCAT itself.
