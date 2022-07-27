@@ -2,11 +2,9 @@
 High precision, marker-based, Hierarchical Cell-type Annotation Tool for single-cell RNA-seq data
 
 ## HiCAT: Brief introduction
-- HiCAT is High precision, marker-based, hierarchical cell-type annotation tool for single-cell RNA-seq data.
-- developed using python3, but also run in R as well
-- HiCAT works in marker-based mode utilizing only the existing lists of markers
-- Please refer to the preprint manuscript "Hierarchical cell-type identifier accurately distinguishes immune-cell subtypes enabling precise profiling of tissue microenvironment with single-cell RNA-sequencing" available at https://www.researchsquare.com/article/rs-418249/v2 DOI:
-https://doi.org/10.21203/rs.3.rs-418249/v2 
+- HiCAT is a marker-based, hierarchical cell-type annotation tool for single-cell RNA-seq data.
+- It was developed using python3, but also run in R as well.
+- HiCAT works in marker-based mode utilizing only the existing lists of markers.
 
 ## Installation using pip, importing MarkerCount in Python
 
@@ -24,7 +22,7 @@ where `show_summary` is used to check the annotation results.
 
 We provide example usage of HiCAT in Jupyter notebook file `HiCAT_example_py_v02.ipynb`, where you can see how to import and how to run HiCAT. For quick overveiw of the usage of HiCAT, simply click `HiCAT_example_py_v02.ipynb` above in the file list.
 
-To run the example, please download the script, Jupyter notebook file, maker DB in `.tsv` file and a sample single-cell RNA-Seq data with `.h5ad` file extension (It is one of the data we used in our paper mentioned above) and follow the instruction below.
+To run the example, please download the Jupyter notebook file, maker DB in `.tsv` file and a sample single-cell RNA-Seq data with `.h5ad` file extension (It is one of the data we used in our paper mentioned above) and follow the instruction below.
 
 1. Download all the files in ZIP format.
 2. Decompress the files into a desired folder.
@@ -48,7 +46,7 @@ Then, you can call the MarkerCount functions as follows.
 `df_res <- mkrcnt$HiCAT( .. arguments .. )` 
 
 The arguments to pass and the return value are the same as those in python.
-R example usage of HiCAT is in R script `HiCAT_example.R`
+R example of HiCAT is in R script `HiCAT_example.R`
 
 ## Contact
 Send email to syoon@dku.edu for any inquiry on the usages.
