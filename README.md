@@ -20,20 +20,6 @@ Once it is installed using pip, you can import the two functions using the follo
 
 where `show_summary` is used to check the annotation results.
 
-## Using MarkerCount in R
-
-(Installed using pip) You also can import and use MarkerCount in R, for which you need the R package `reticulate`.
-First, import MarkerCount using the following command
-
-`library(reticulate)`  
-`mkrcnt <- import("MarkerCount.hicat")`
-
-Then, you can call the MarkerCount functions as follows.
-
-`df_res <- mkrcnt$HiCAT( .. arguments .. )` 
-
-The arguments to pass and the return value are the same as those in python.
-
 ## Example usage in Jupyter notebook
 
 We provide example usage of HiCAT in Jupyter notebook file `HiCAT_example_py_v02.ipynb`, where you can see how to import and how to run HiCAT. For quick overveiw of the usage of HiCAT, simply click `HiCAT_example_py_v02.ipynb` above in the file list.
@@ -48,6 +34,21 @@ To run the example, please download the script, Jupyter notebook file, maker DB 
 To run HiCAT, you need the python packages `Numpy`, `Pandas`, `sklearn`, `scipy`, and `sknetwork`.
 `seaborn` and `matplotlib` are required only to show the results, not for the HiCAT itself.
 All of them can be installed simply using `pip` command.
+
+## Using MarkerCount in R
+
+(Installed using pip) You also can import and use MarkerCount in R, for which you need the R package `reticulate`.
+First, import MarkerCount using the following command
+
+`library(reticulate)`  
+`mkrcnt <- import("MarkerCount.hicat")`
+
+Then, you can call the MarkerCount functions as follows.
+
+`df_res <- mkrcnt$HiCAT( .. arguments .. )` 
+
+The arguments to pass and the return value are the same as those in python.
+R example usage of HiCAT is in R script `HiCAT_example.R`
 
 ## Contact
 Send email to syoon@dku.edu for any inquiry on the usages.
