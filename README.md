@@ -20,6 +20,14 @@ where `show_summary` is used to check the annotation results.
 
 ## Example usage in Jupyter notebook
 
+Marker file must be a tap-separated-value file (.tsv) with 5 columns, "cell_type_major", "cell_type_minor", "cell_type_subset", "exp" and "markers".
+- The first thress defines the 3-level taxonomy tree to be used for hierarchical identification.
+- "exp" is type of marker, which can be pos, neg, or sec.
+- "markers" is a list of gene symbols separated by comma.
+- The markers in the provided marker file, "cell_markers_rndsystems_rev.tsv", were reproduced from https://www.rndsystems.com/resources/cell-markers
+
+## Example usage in Jupyter notebook
+
 We provide example usage of HiCAT in Jupyter notebook file `HiCAT_example_py_v02.ipynb`, where you can see how to import and how to run HiCAT. For quick overveiw of the usage of HiCAT, simply click `HiCAT_example_py_v02.ipynb` above in the file list.
 
 To run the example, please download the Jupyter notebook file, maker DB in `.tsv` file and a sample single-cell RNA-Seq data with `.h5ad` file extension (It is one of the data we used in our paper mentioned above) and follow the instruction below.
