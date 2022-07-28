@@ -30,7 +30,7 @@ Marker file must be a tap-separated-value file (.tsv) with 5 columns, "cell_type
 
 `HiCAT_example_py_v02.ipynb` is example code of HiCAT in Jupyter notebook, where you can see how to import and run HiCAT. For quick overveiw of the usage of HiCAT, simply click `HiCAT_example_py_v02.ipynb` above in the file list.
 
-To run the example, download the Jupyter notebook file, maker DB in `.tsv` file and a sample single-cell RNA-Seq data with `.h5ad` file extension (It is one of the data we used in our paper mentioned above) and follow the instruction below.
+To run the example, download the Jupyter notebook file, maker DB in `.tsv` file and a sample single-cell RNA-Seq data with `.h5ad` extension (It is one of the data we used in our paper mentioned above). Just follow the instruction below.
 
 1. Download all the files in ZIP format.
 2. Decompress the files into a desired folder.
