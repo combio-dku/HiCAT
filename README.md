@@ -34,7 +34,7 @@ To run the example, download the Jupyter notebook file, maker DB in `.tsv` file 
 
 1. Download all the files in ZIP format.
 2. Decompress the files into a desired folder.
-3. Decompress 'Melanoma_5K_rev_rev.h5ad.zip'
+3. Decompress 'Melanoma_5K_rev.h5ad.zip'
 4. Run jupyter notebook and open the jupyter notebook file `HiCAT_example_py_v02.ipynb`
 5. You can run the codes step-by-step and can see the intermediate and final results.
 
