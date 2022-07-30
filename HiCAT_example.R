@@ -13,7 +13,7 @@ celltype_minor <- as.character(adata_test$obs[,'celltype_minor'])
 ### Run MarkerCOunt_GSE
 mkr_file <- 'cell_markers_rndsystems_rev.tsv'
 
-lst_res <- mkrcnt$HiCAT( X_test, marker_file = mkr_file, log_transformed = FALSE ) #, verbose = FALSE )
+lst_res <- mkrcnt$HiCAT( X_test, marker_file = mkr_file, log_transformed = FALSE ) 
 
 df_pred <- lst_res[[1]]
 summary <- lst_res[[2]]
