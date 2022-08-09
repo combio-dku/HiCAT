@@ -57,6 +57,7 @@ Then, you can call the HiCAT functions as follows.
 
 The arguments to pass and the return value are the same as those in python.
 R example of HiCAT is in R script `HiCAT_example.R`
+Tested in linux Mint with R version 4.0.5. (numpy v1.21.1, scipy v1.7.1 without scikit-network)
 
 ## Contact
 Send email to syoon@dku.edu for any inquiry on the usages.
