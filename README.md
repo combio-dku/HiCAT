@@ -21,8 +21,9 @@ where `show_summary` is used to check the annotation results.
 
 ## Marker file format
 
-Marker file must be a tap-separated-value file (.tsv) with 5 columns, "cell_type_major", "cell_type_minor", "cell_type_subset", "exp" and "markers".
-- The first three define the 3-level taxonomy tree to be used for hierarchical identification.
+Marker file must be a tap-separated-value file (.tsv) with 6 columns, "tissue", "cell_type_major", "cell_type_minor", "cell_type_subset", "exp" and "markers".
+- The first column groups the celltypes specified in the following columns.
+- The second to fourth define the 3-level taxonomy tree to be used for hierarchical identification.
 - "exp" is type of marker, which can be "pos", "neg", or "sec".
 - "markers" is a list of gene symbols separated by comma.
 - The markers in "cell_markers_rndsystems_rev.tsv", were reproduced from https://www.rndsystems.com/resources/cell-markers
