@@ -39,7 +39,7 @@ To run the example, download the Jupyter notebook file, maker DB in `.tsv` file 
 4. Run jupyter notebook and open the jupyter notebook file `HiCAT_example_py_v02.ipynb`
 5. You can run the codes step-by-step and can see the intermediate and final results.
 
-To run HiCAT, you need the pre-installed python packages `Numpy`, `Pandas`, `sklearn`, `scipy`, and `sknetwork`.
+To run HiCAT, you need the pre-installed python packages `Numpy`, `Pandas`, `sklearn`, `scipy`, and `scikit-network`.
 `seaborn` and `matplotlib` are required only to show the results, not for the HiCAT itself.
 All of them can be installed simply using `pip` command.
 
