@@ -1,20 +1,3 @@
-import requests
-from datetime import datetime
-
-package_name = "패키지이름"
-pypi_api_url = f"https://pypi.org/pypi/{package_name}/json"
-
-response = requests.get(pypi_api_url)
-data = response.json()
-
-# 월별 다운로드 횟수 가져오기
-downloads_per_month = data["info"]["downloads"]["last_month"]
-
-# 월별 다운로드 횟수 합산하여 누적 다운로드 횟수 계산
-total_downloads = sum(downloads_per_month.values())
-
-print(f"{package_name} 누적 다운로드 횟수: {total_downloads}")
-
 # HiCAT
 
 ![PyPI Downloads](https://img.shields.io/pypi/dm/MarkerCount.svg)  ![GitHub Downloads](https://img.shields.io/github/downloads/combio-dku/HiCAT/total.svg)
