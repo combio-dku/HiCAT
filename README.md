@@ -1,5 +1,6 @@
 # HiCAT
 High precision, marker-based, Hierarchical Cell-type Annotation Tool for single-cell RNA-seq data
+![PyPI Downloads](https://img.shields.io/pypi/dm/MarkerCount.svg)
 
 ## HiCAT: Brief introduction
 - HiCAT is a marker-based, hierarchical cell-type annotation tool for single-cell RNA-seq data.
