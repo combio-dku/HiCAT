@@ -2,7 +2,9 @@
 
 HiCAT utilizes subset markers structured in a 3-level taxonomy tree. 
 
-<img src="https://github.com/combio-dku/HiCAT/assets/82195405/57ff3362-95ab-48e0-ab5a-46733de61ff3" alt="HiCAT operation & Taxonomy tree" width="600">
+<div style="text-align:center;">
+  <img src="https://github.com/combio-dku/HiCAT/assets/82195405/57ff3362-95ab-48e0-ab5a-46733de61ff3" alt="HiCAT operation & Taxonomy tree" width="600">
+</div>
 
 Although the three levels of cell-type taxonomies roughly correspond to the lineage tree, 
 we rather define them by their transcriptomic profiles for classification and clustering purposes. 
