@@ -18,7 +18,7 @@ As mentioned, these three-level taxonomies are defined only for the classificati
 
 ## Tips for preparing customized markers db
 
-1. Rather than create a completely new markers db, try to use the existing one (https://github.com/combio-dku/HiCAT/blob/main/cell_markers_rndsystems.tsv) to add new types.
+1. Rather than create a completely new markers db, try to use the [existing one](https://github.com/combio-dku/HiCAT/blob/main/cell_markers_rndsystems.tsv) to add new types.
 2. When you want to define a new major type, they must be clearly separable from the existing major types.
 3. If your new types are not clearly separable from existing major type, you can add them as a minor type within a major type that are most close to them. 
 
