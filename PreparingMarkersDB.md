@@ -1,6 +1,6 @@
 ## HiCAT markers db
 
-HiCAT utilizes subset markers structured in a 3-level taxonomy tree. 
+HiCAT utilizes subset markers structured in a 3-level taxonomy tree, major-types, minor-types and subsets. 
 
 <div style="text-align:center;">
   <img src="https://github.com/combio-dku/HiCAT/assets/82195405/57ff3362-95ab-48e0-ab5a-46733de61ff3" alt="HiCAT operation & Taxonomy tree" width="600">
@@ -17,8 +17,9 @@ They are not clearly separable from other subsets and also may not be well local
 
 ## Tips for preparing customized markers db
 
-1. Rather than create a completely new markers db, try to use the [existing one](https://github.com/combio-dku/HiCAT/blob/main/cell_markers_rndsystems.tsv) to add new types.
-2. When you want to define a new major type, they must be clearly separable from the existing major types.
-3. If your new types are not clearly separable from existing major type, you can add them as a minor type within a major type that are most close to them. 
+1. Rather than create a completely new markers db, try to use the [existing one](https://github.com/combio-dku/HiCAT/blob/main/cell_markers_rndsystems.tsv), to which you can add new types.
+2. When you add a new major-type, other than those in the existing major-types, it must be clearly separable (e.g. in t-SNE plot) from others.
+3. If your new types are not clearly separable from existing major type, it must be added as a minor-type or a subset of the major it belongs or most close to. You may check what major-type is suitable to your minor-type using t-SNE or UMAP plot.
+4. Typically, minor-types (or subsets) from the same major-type (or minor-type) share some marker genes. You can add the common markers to all the minor-types (or subsets) that share.
 
 
