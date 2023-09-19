@@ -1,6 +1,9 @@
 ## Tips for preparing markers db
 
 HiCAT utilizes subset markers structured in a 3-level taxonomy tree. 
+
+![image](https://github.com/combio-dku/HiCAT/assets/82195405/57ff3362-95ab-48e0-ab5a-46733de61ff3)
+
 Although the three levels of cell-type taxonomies roughly correspond to the lineage tree, 
 we rather define them by their transcriptomic profiles for classification and clustering purposes. 
 First, major-types are defined as cell populations that are clearly separable from others so that 
