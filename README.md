@@ -27,7 +27,7 @@ Marker file must be a tap-separated-value file (.tsv) with 5 columns, "cell_type
 - The first three columns define the 3-level taxonomy tree to be used for hierarchical identification.
 - "exp" is type of marker, which can be "pos", "neg", or "sec".
 - "markers" is a list of gene symbols separated by comma.
-- The markers in "cell_markers_rndsystems_rev.tsv", were reproduced from https://www.rndsystems.com/resources/cell-markers
+- The markers in "cell_markers_rndsystems_rev.tsv", were reproduced from [R&D systems](https://www.rndsystems.com/resources/cell-markers)
 
 If you want to use your own markers, please refer to the [tips for prepareing markers db](https://github.com/combio-dku/HiCAT/blob/main/PreparingMarkersDB.md).
 
