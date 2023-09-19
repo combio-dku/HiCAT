@@ -29,6 +29,8 @@ Marker file must be a tap-separated-value file (.tsv) with 5 columns, "cell_type
 - "markers" is a list of gene symbols separated by comma.
 - The markers in "cell_markers_rndsystems_rev.tsv", were reproduced from https://www.rndsystems.com/resources/cell-markers
 
+If you want to use your own markers, please refer to the [tips for prepareing markers db](https://github.com/combio-dku/HiCAT/blob/main/PreparingMarkersDB.md).
+
 ## Example usage in Jupyter notebook
 
 `HiCAT_example_py_v02.ipynb` is example code of HiCAT in Jupyter notebook, where you can see how to import and run HiCAT. For quick overveiw of the usage of HiCAT, simply click `HiCAT_example_py_v02.ipynb` above in the file list.
