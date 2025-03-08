@@ -4,6 +4,7 @@
 
 ## Brief introduction
 - HiCAT is a marker-based, hierarchical cell-type annotation tool for single-cell RNA-seq data.
+- An improved version of [MarkerCount](https://github.com/combio-dku/MarkerCount).
 - It was developed using python3, but also run in R as well.
 - HiCAT works in marker-based mode utilizing only the existing lists of markers.
 
