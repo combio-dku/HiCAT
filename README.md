@@ -1,6 +1,9 @@
 # HiCAT
 
 HiCAT: ![PyPI Version](https://img.shields.io/pypi/v/hicat.svg)  ![PyPI Downloads](https://img.shields.io/pypi/dm/hicat.svg)  
+[![Downloads](https://pepy.tech/badge/hicat)](https://pepy.tech/project/hicat)
+[![Downloads/Month](https://pepy.tech/badge/hicat/month)](https://pepy.tech/project/hicat)
+
 MarkerCount: ![PyPI Version](https://img.shields.io/pypi/v/MarkerCount.svg)  ![PyPI Downloads](https://img.shields.io/pypi/dm/MarkerCount.svg)  
 
 ## Brief introduction
